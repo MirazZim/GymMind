@@ -1,10 +1,10 @@
-import { SignInButton } from '@clerk/nextjs';
+import { SignOutButton } from '@clerk/nextjs';
 import React from 'react'
 
 const Home = () => {
   return (
     <div>
-      <SignInButton/>
+      <SignOutButton/>
     </div>
   )
 }
